@@ -149,16 +149,16 @@ def clear():
 
 def banner():
 	print(u+"""
-    ██████╗ ██╗████████╗███████╗██████╗ ███████╗
-    ██╔══██╗██║╚══██╔══╝╚══███╔╝██╔══██╗██╔════╝
-    ██║  ██║██║   ██║     ███╔╝ ██████╔╝█████╗
-    ██║  ██║██║   ██║    ███╔╝  ██╔══██╗██╔══╝
-    ██████╔╝██║   ██║   ███████╗██████╔╝██║
-    ╚═════╝ ╚═╝   ╚═╝   ╚══════╝╚═════╝ ╚═╝V2.0
+██╗   ██╗████████╗ ██████╗ ██████╗ ██╗ █████╗ 
+██║   ██║╚══██╔══╝██╔═══██╗██╔══██╗██║██╔══██╗
+██║   ██║   ██║   ██║   ██║██████╔╝██║███████║
+██║   ██║   ██║   ██║   ██║██╔═══╝ ██║██╔══██║
+╚██████╔╝   ██║   ╚██████╔╝██║     ██║██║  ██║
+ ╚═════╝    ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝v2.5
 AUTHOR : DITZTZU & Yumasaa
 GITHUB : GITHUB.COM/SPTTY-CHAN\n"""+h+line)
-CorrectUsername = "tarko"
-CorrectPassword = "tarko"
+CorrectUsername = "DITZGANS"
+CorrectPassword = "NESACANS"
 loop = "true"
 while loop == "true":
 	username = sayangku = input(h+"Tools Username : ")
@@ -260,7 +260,7 @@ def menu():
 		exit()
 	print(p+"╔══[ Active User : "+h+pillow["name"])
 	print(p+"╠══[ =>"+h+" Hasil_Op/OK_%s.txt"%(hck))
-	print(p+"╠══[=>"+k+" Hasil_Cp/CP_%s.txt"%(hck))
+	print(p+"║ =>"+k+" Hasil_Cp/CP_%s.txt"%(hck))
 	print(p+"╠════════════════════════════════════════════════════")
 	print(p+"╠══[{"+k+"1"+h+"}"+l+" Crack Dari Pertemanan Atau Publik")
 	print(p+"╠══[{"+k+"2"+h+"}"+l+" Crack Dari Followers Publik")
@@ -271,10 +271,10 @@ def menu():
 	print(p+"╠══[{"+k+"7"+h+"}"+l+" Cek Opsi Hasil Crack")
 	print(p+"╠══[{"+k+"8"+h+"}"+l+" Cek Result Crack")
 	print(p+"╠══[{"+k+"9"+h+"}"+l+" Setting Tema")
-       	print(p+"╠══[{"+k+"0"+h+"}"+l+" Logout")
+	print(p+"╠══[{"+k+"0"+h+"}"+l+" Logout")
 	print(p+"╠════════════════════════════════════════════════════")
 	print(p+"║")
-	sayangku = input(p+"╠═[ Pilih : ")
+	sayangku = input(p+"╚══[ Pilih : ")
 	if sayangku=="1" or sayangku=="01":
 		publik()
 	elif sayangku=="2" or sayangku=="02":
@@ -306,33 +306,33 @@ def menu():
 # TEMA
 
 def tema():
-	print(h+"╠══[{"+k+"1"+h+"}"+l+" Tema Default")
-	print(h+"╠══[{"+k+"2"+h+"}"+l+" Tema Kuning")
-	print(h+"╠══[{"+k+"3"+h+"}"+l+" Tema Merah")
-	print(h+"╠══[{"+k+"4"+h+"}"+l+" Tema Biru")
-	print(h+"╠══[{"+k+"0"+h+"}"+l+" Kembali")
-	pilih = input("╠═"+balmond+l+" Pilih : ")
+	print(h+"\n{"+k+"1"+h+"}"+l+" Tema Default")
+	print(h+"{"+k+"2"+h+"}"+l+" Tema Kuning")
+	print(h+"{"+k+"3"+h+"}"+l+" Tema Merah")
+	print(h+"{"+k+"4"+h+"}"+l+" Tema Biru")
+	print(h+"{"+k+"0"+h+"}"+l+" Kembali")
+	pilih = input("\n"+balmond+l+" Pilih : ")
 	if pilih=="1" or pilih=="01":
 		awm = open("tema.txt","w");awm.write("default");awm.close()
-		print("╠═"+balmond+l+" Tema Berhasil Diterapkan")
+		print("\n"+balmond+l+" Tema Berhasil Diterapkan")
 		jalan(balmond+l+" Jalankan Ulang Scriptnya...")
 		time.sleep(0.5)
 		exit()
 	elif pilih=="2" or pilih=="02":
 		awm = open("tema.txt","w");awm.write("kuning");awm.close()
-		print("╠═"+balmond+l+" Tema Berhasil Diterapkan")
+		print("\n"+balmond+l+" Tema Berhasil Diterapkan")
 		jalan(balmond+l+" Jalankan Ulang Scriptnya...")
 		time.sleep(0.5)
 		exit()
 	elif pilih=="3" or pilih=="03":
 		awm = open("tema.txt","w");awm.write("merah");awm.close()
-		print("╠═"+balmond+l+" Tema Berhasil Diterapkan")
+		print("\n"+balmond+l+" Tema Berhasil Diterapkan")
 		jalan(balmond+l+" Jalankan Ulang Scriptnya...")
 		time.sleep(0.5)
 		exit()
 	elif pilih=="4" or pilih=="04":
 		awm = open("tema.txt","w");awm.write("biru");awm.close()
-		print("╠═"+balmond+l+" Tema Berhasil Diterapkan")
+		print("\n"+balmond+l+" Tema Berhasil Diterapkan")
 		jalan(balmond+l+" Jalankan Ulang Scriptnya...")
 		time.sleep(0.5)
 		exit()
@@ -346,37 +346,37 @@ def tema():
 # RESULT
 
 def result():
-	print(h+"╠══[{"+k+"1"+h+"}"+l+" Cek Result CP")
-	print(h+"╠══[{"+k+"2"+h+"}"+l+" Cek Result OK")
-	print(h+"╠══[{"+k+"0"+h+"}"+l+" Kembali")
-	pilih = input("╠═"+balmond+l+" Pilih : ")
+	print(h+"\n{"+k+"1"+h+"}"+l+" Cek Result CP")
+	print(h+"{"+k+"2"+h+"}"+l+" Cek Result OK")
+	print(h+"{"+k+"0"+h+"}"+l+" Kembali")
+	pilih = input("\n"+balmond+l+" Pilih : ")
 	if pilih=="1" or pilih=="01":
 		try:
 			lisaa = os.listdir("Hasil_Cp")
 		except FileNotFoundError:
-			jalan(p+"╠══["+h+"[+]"+k+" Direktori Tidak Ditemukan")
+			jalan(balmond+m+" Direktori Tidak Ditemukan")
 			time.sleep(0.5)
 			menu()
 		if len(lisaa)==0:
-			print(p+"╠══["+h+"[+]"+k+" Hasil CP")
-			print(p+"╠══["+h+"[+]"+k+" Hasil CP")
-			input(p+"╠══["+h+"[+]"+p+" Kembali")
+			print("\n"+balmond+l+" Hasil CP")
+			print(balmond+m+" Tidak Ada Hasil Cp")
+			input(balmond+l+" Kembali")
 			time.sleep(0.5)
 			menu()
 		else:
-			print(p+"╠══["+h+"[+]"+p+" Hasil CP")
+			print("\n"+balmond+l+" Hasil CP")
 			for jisoo in lisaa:
-				print(p+"╠══["+h+" "+jisoo)
-			marjan = input(p+"╠══["+h+" File : "+h+" ")
+				print(balmond+l+" "+jisoo)
+			marjan = input(balmond+l+" File : "+h+"")
 			try:
 				binatang = open("Hasil_Cp/%s"%(marjan))
 			except IOError:
-				jalan(p+"╠══["+h+"[+]"+m+" Nama File Tidak Ada")
+				jalan(balmond+l+" Nama File Tidak Ada")
 				time.sleep(0.5)
 				menu()
 		print(""+l)
 		bilur = os.system("cd Hasil_Cp && cat %s"%(marjan))
-		input(p+"╠══["+h+"[+]"+p+" Kembali")
+		input("\n"+balmond+l+" Kembali")
 		time.sleep(0.5)
 		menu()
 	elif pilih=="2" or pilih=="02":
